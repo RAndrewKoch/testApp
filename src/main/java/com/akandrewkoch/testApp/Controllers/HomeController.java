@@ -10,4 +10,9 @@ public class HomeController {
     public String displayHomePage(){
         return "index.html";
     }
+
+    @GetMapping("/goodbye")
+    public String displayGoodbye() {
+        return "goodbye";
+    }
 }
