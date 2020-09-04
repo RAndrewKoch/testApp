@@ -10,9 +10,9 @@ public class Thing {
     @Id
     private Integer thingNumber;
 
-    Thing (){}
+    public Thing (){}
 
-    Thing (Integer thingNumber){
+    public Thing(Integer thingNumber){
         this.thingNumber=thingNumber;
     }
 
