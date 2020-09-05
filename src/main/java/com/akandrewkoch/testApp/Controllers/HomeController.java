@@ -14,7 +14,7 @@ public class HomeController {
 
     @GetMapping
     public String displayHomePage(){
-        Thing newThing = new Thing(2);
+        Thing newThing = new Thing(3);
         thingRepository.save(newThing);
         return "index.html";
     }
